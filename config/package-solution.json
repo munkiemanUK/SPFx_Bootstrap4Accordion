@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bootstrap-4-accordion-client-side-solution",
+    "id": "0f565606-1d1f-4890-98ae-2e39646c466f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/bootstrap-4-accordion.sppkg"
+  }
+}

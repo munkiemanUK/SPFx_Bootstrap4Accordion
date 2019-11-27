@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bootstrap-4-accordion-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bootstrap4Accordion/Bootstrap4AccordionWebPart.js",
+          "manifest": "./src/webparts/bootstrap4Accordion/Bootstrap4AccordionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Bootstrap4AccordionWebPartStrings": "lib/webparts/bootstrap4Accordion/loc/{locale}.js"
+  }
+}
